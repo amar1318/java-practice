@@ -1,0 +1,21 @@
+//wa method which will remove any given char from string
+public class meth{
+    static void remove(String str){
+        StringBuilder sb = new StringBuilder();
+        char removed_char = 'o';
+        str = "remove something";
+        char ch[] = str.toCharArray();
+        for(char s : ch){
+            if(s == removed_char){
+                continue;
+            }System.out.println(s);
+        }
+        
+    }
+    
+    public static void main(String[] args){
+        String str = "remove something";
+        remove(str);
+        
+    }
+}
