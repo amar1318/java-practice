@@ -1,4 +1,4 @@
-package com.velocity;
+
 /*
  * 5. K’th Smallest/Largest Element in Unsorted Array
  *    Input: arr[] = {7, 10, 4, 3, 20, 15}, K = 3 

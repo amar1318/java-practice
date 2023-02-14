@@ -1,4 +1,4 @@
-package com.velocity;
+
 /*
  * Count number of occurrences (or frequency) in a sorted array
  *  Input: arr[] = {1, 1, 2, 2, 2, 2, 3,},   x = 1

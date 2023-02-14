@@ -1,4 +1,4 @@
-package com.velocity;
+
 
 //Find a peak element which is not smaller than its neighbours
 //Input: array[]= {5, 10, 20, 15}

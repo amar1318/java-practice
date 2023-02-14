@@ -1,4 +1,4 @@
-package com.velocity;
+
 /*
  * 4. program to sort an array in ascending order
  *    Input: arr[] = {0, 23, 14, 12, 9}
