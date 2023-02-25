@@ -1,4 +1,4 @@
-
+package com.javaPractice;
 /*
 
 2. Find minimum and maximum element in an array

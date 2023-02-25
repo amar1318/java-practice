@@ -1,4 +1,4 @@
-
+package com.javaPractice;
 
 public class MaxAndMinNumInArray {
 

@@ -1,4 +1,4 @@
-
+package com.javaPractice;
 
 /*
  * Write a program to reverse an array or string
@@ -9,12 +9,12 @@
 public class ArrayReverse {
     public static void reverse(){
         int [] arr = {1,2,3,4,5};
-        int start = 0;
-        int end = arr.length-1;
-        while(start<end){
-            int temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
+        int start = 0;                 // start = 1
+        int end = arr.length-1;        // end = 5
+        while(start < end){
+            int temp = arr[start];     //temp = 1
+            arr[start] = arr[end];     //start = 5
+            arr[end] = temp;           //end = 1
             start++;
             end--;
         }

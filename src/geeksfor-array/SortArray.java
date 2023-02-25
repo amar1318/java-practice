@@ -1,4 +1,4 @@
-
+package com.javaPractice;
 /*
  * 4. program to sort an array in ascending order
  *    Input: arr[] = {0, 23, 14, 12, 9}
@@ -10,8 +10,8 @@ public class SortArray {
         for(int i=0; i<arr.length; i++){      //sort using for loop or bubble sort
             for(int j=i+1; j<arr.length; j++){
                 if(arr[i]>arr[j]){
-                    int temp = arr[i];
-                    arr[i] = arr[j];
+                    int temp = arr[i];    //temp = 4
+                    arr[i] = arr[j];      // i = 2
                     arr[j] = temp;
                 }
             }

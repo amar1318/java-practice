@@ -1,7 +1,7 @@
-
+package com.javaPractice;
 /*
  * 5. K’th Smallest/Largest Element in Unsorted Array
- *    Input: arr[] = {7, 10, 4, 3, 20, 15}, K = 3 
+ *    Input: arr[] = {7, 10, 4, 3, 20, 15}, K = 3     // 3 4 7 10 15 20
  *    Output: 7
  */
 public class KthsmallestLargest {
@@ -15,8 +15,8 @@ public class KthsmallestLargest {
                 }
             }
         }
-        System.out.println("smallest--" + arr[k]);
-        System.out.println("largest--"+ arr[arr.length-k-1]);
+        System.out.println("smallest--" + arr[k-1]);
+        System.out.println("largest--"+ arr[arr.length-k]);
     }
     public static void main(String[] args) {
         int [] arr = {4,5,6,7,3,8,9,1};
@@ -27,5 +27,5 @@ public class KthsmallestLargest {
 }
 
 //sorted arr -- 1 3 4 5 6 7 8 9
-//2nd smallest --4
-//2nd largest --7
+//2nd smallest --3
+//2nd largest --8
